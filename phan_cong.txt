@@ -1,1 +1,36 @@
+BẢNG PHÂN CÔNG NHIỆM VỤ ĐỒ ÁN MÔN LẬP TRÌNH PYTHON
+- Nhóm: Nhóm 9 - Lớp Python 04
+- Đề tài 4: Ứng dụng quản lý câu lạc bộ sinh viên
+- Mục tiêu: Quản lý thành viên, ban phụ trách, sự kiện và mức độ tham gia hoạt động.
 
+1. 2001240301_Trần Nguyễn Như Ngọc (Nhóm trưởng)_Thiết kế Kiến trúc, Lưu trữ & Phân quyền
+- File phụ trách commit: ban_va_quyen.py
+- Nhiệm vụ:
+  + Thiết kế sơ đồ lớp chung, viết lớp Nguoi (lớp cha), TaiKhoan, BanPhuTrach và KhoanThuHoiPhi.
+  + Viết module đọc/ghi/sao lưu dữ liệu file JSON bằng with, có try...except an toàn.
+  + Xây dựng hệ thống đăng nhập, tạo tài khoản, phân quyền (Quản trị viên & Người dùng).
+  + Quản lý khoản thu hội phí và tổng hợp báo cáo nhóm.
+
+2. 2001240376_Vũ Hoàng Phúc_Quản lý Hồ sơ thành viên & Giao diện cốt lõi
+- File phụ trách commit: thanh_vien.py
+- Nhiệm vụ:
+  + Viết lớp ThanhVien (kế thừa từ lớp Nguoi) và lớp quản lý QuanLyThanhVien.
+  + Dựng khung cửa sổ Tkinter chính, thiết lập menu, Notebook nhiều tab, Treeview.
+  + Chức năng CRUD (Thêm, Đọc, Sửa, Xóa), tìm kiếm và lọc hồ sơ thành viên, kiểm tra Regex.
+  + Thiết kế thành phần nâng cao: Custom MemberCard.
+
+3. 2033240333_Trần Hoàng Anh Thư_Quản lý Sự kiện, Điểm danh & Crawl dữ liệu
+- File phụ trách commit: su_kien.py
+- Nhiệm vụ:
+  + Viết lớp SuKien, DangKySuKien và lớp quản lý QuanLySuKien.
+  + Tạo sự kiện, đăng ký tham gia sự kiện, ghi nhận điểm danh và cộng điểm hoạt động.
+  + Viết chức năng lấy dữ liệu từ nguồn bên ngoài (Crawl/API) lưu vào JSON.
+  + Tính năng nâng cao: Gửi thông báo trong ứng dụng hoặc tạo mã QR giả lập.
+
+4. 2001240209_Trần Đăng Khoa_Thống kê, Báo cáo & Kiểm thử, Đóng gói
+- File phụ trách commit: thong_ke.py
+- Nhiệm vụ:
+  + Viết lớp ThongKeHoatDong để xử lý thống kê và xuất dữ liệu.
+  + Thống kê thành viên tích cực, sự kiện đông người và vẽ biểu đồ trên Canvas.
+  + Xuất báo cáo ra file CSV/JSON, sinh dữ liệu mẫu bằng random, lập 10 test cases.
+  + Đóng gói ứng dụng thành file thực thi kèm hướng dẫn sử dụng.
