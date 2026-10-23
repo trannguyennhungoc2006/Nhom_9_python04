@@ -28,7 +28,7 @@ BẢNG PHÂN CÔNG NHIỆM VỤ ĐỒ ÁN MÔN LẬP TRÌNH PYTHON
   + Tính năng nâng cao: Gửi thông báo trong ứng dụng hoặc tạo mã QR giả lập.
 
 4. 2001240209_Trần Đăng Khoa_Thống kê, Báo cáo & Kiểm thử, Đóng gói
-- File phụ trách commit: thong_ke.py
+- File phụ trách commit: Bao_cao_Thong_ke.py
 - Nhiệm vụ:
   + Viết lớp ThongKeHoatDong để xử lý thống kê và xuất dữ liệu.
   + Thống kê thành viên tích cực, sự kiện đông người và vẽ biểu đồ trên Canvas.
